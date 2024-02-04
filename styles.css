@@ -53,9 +53,6 @@ tr:hover {
     background-color: #f5f5f5;
 }
 
-h1 {
-    
-}
 
 h2, p {
     width: 100%; /* Divide el ancho del contenedor entre el texto y la imagen */
@@ -80,6 +77,7 @@ h2, p {
     padding: 20px;
     border-radius: 10px;
     width: 70%;
+    height: 43vh;
     margin: auto;
     margin-top: 2vh;
     margin-bottom: 14vh;
@@ -105,14 +103,22 @@ h2, p {
 
 .contenido {
     display: flex;
-    flex-direction: column; /* Cambia la dirección del flujo a vertical */
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     width: 50%;
 }
 
 .imagen-responsive {
-    width: 20%; /* Ajusta al contenedor */
+    width: 40%; /* Ajusta al contenedor */
     height: 80%; /* Mantiene la proporción de la imagen */
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.imagen-responsive2 {
+    width: 80%; /* Ajusta al contenedor */
+    height: 40%; /* Mantiene la proporción de la imagen */
     border-radius: 5px;
     margin-left: 20px;
 }
